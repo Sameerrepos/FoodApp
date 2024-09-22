@@ -8,7 +8,7 @@
     /* Base styles */
    body {
         font-family: Arial, sans-serif;
-        background-image: url('images/bgimgloginjsp.jpg'); /* Replace 'your_image.jpg' with the actual path to your image */
+        background-image: url('images/bglogin.jpg'); /* Replace 'your_image.jpg' with the actual path to your image */
         background-size: cover;
         background-position: center;
         margin: 0;

@@ -22,7 +22,8 @@
         text-align: center;
         align-items: center;
         height: 100vh;
-            background-color: orange; /* Light gray background */
+            background-color: #fgii; 
+            background-image: url('images/yoga-still-life.jpg'); /* Light gray background */
         }
         header {
             background-color: #2c3e50; /* Dark blue-gray */

@@ -144,7 +144,7 @@ public class MenuDAOImpl implements MenuDAO {
 			{
 				al.add(new Menu(res.getInt("menuId"),res.getInt("restaurantId"),
 						res.getString("ItemName"),res.getFloat("price"),res.getString("description"),
-						res.getString("isAvailable"),res.getString("imgpath")));
+						res.getString("isAvailable"),res.getString("imgPath")));
 				 
 			}
 		}

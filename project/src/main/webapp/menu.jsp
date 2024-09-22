@@ -12,7 +12,7 @@
 <style>
     body {
         font-family: Arial, sans-serif;
-        background-image: url("images/vegetables-set-left-black-slate.jpg"); /* Replace with your image path */
+        background-image: url("images/bg.jpg"); /* Replace with your image path */
         background-size: cover;
         background-position: center;
         margin: 0;
@@ -53,6 +53,10 @@
         font-size: 18px;
         font-weight: bold;
     }
+    .restaurant img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
     form {
         margin-top: 10px;
     }
@@ -88,7 +92,7 @@
             for (Menu menuItem : MenuList) {
         %>     
         <div class="restaurant">
-           <img src="<%= menuItem.getImgPath()%>" alt="Image of <%= menuItem.getItemName() %>">
+           <img src="<%=menuItem.getImgPath()%>" alt="Image of item <%= menuItem.getItemName() %> link <%= menuItem.getImgPath()%>">
         
             <h3><%= menuItem.getItemName() %></h3>
             <p class="price">$<%= menuItem.getPrice() %></p>

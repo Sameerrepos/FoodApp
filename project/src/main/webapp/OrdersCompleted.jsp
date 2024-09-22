@@ -17,6 +17,10 @@
         justify-content: center;
         height: 100vh;
         text-align: center;
+         background-image: url('images/orderedimg.jpg');
+         background-size: cover;
+        background-position: center;
+        
     }
 
     .container {

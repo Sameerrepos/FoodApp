@@ -16,6 +16,10 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+             background-image: url('images/box-with-confetti-green-table.jpg'); /* Replace 'your_image.jpg' with the actual path to your image */
+        background-size: cover;
+        background-position: center;
+        
         }
         .container {
             background: #fff;

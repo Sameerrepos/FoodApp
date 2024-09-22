@@ -21,6 +21,7 @@
         background-size: cover;  /* Ensures the image covers the entire viewport */
     background-position: center;  /* Positions the image at the top center */
     margin: 0;
+     background-image: url('images/checkoutimg.jpg');
     padding: 0;
     }
     .container {
